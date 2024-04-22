@@ -22,6 +22,8 @@ Entwickeln Sie eine Implementierung dieses Algorithmus zur Berechnung von Primza
    - Die Reihenfolge der Ausgabe (aufsteigend oder absteigend) ist nicht relevant.
 
 
+## [Hilfestellung](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/Pflicht%C3%9Cbung2/Hilfestellung.md#aufgabe-1-berechnung-von-primzahlen-)
+
 
 
 # Aufgabe 2: Einfacher Verschlüsselungsalgorithmus 🔒
@@ -47,6 +49,8 @@ Implementieren Sie diesen Verschlüsselungsalgorithmus in Java unter Verwendung 
 2. **Verschlüsseln**: Ersetzen Sie jeden Buchstaben durch seinen Nachfolger im Alphabet.
 3. **Ausgabe**: Geben Sie die verschlüsselte Zeichenkette aus.
 
+
+## [Hilfestellung](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/Pflicht%C3%9Cbung2/Hilfestellung.md#aufgabe-2-einfacher-verschl%C3%BCsselungsalgorithmus-%EF%B8%8F)
 
 
 
@@ -75,6 +79,8 @@ Die Verwendung von Multiplikation und Division ist im gesamten Quellcode untersa
 - Überlegen Sie sich eine geeignete Größe für das Array, um den Speicherbedarf und die Verarbeitungsgeschwindigkeit zu optimieren.
 
 
+## [Hilfestellung](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/Pflicht%C3%9Cbung2/Hilfestellung.md#aufgabe-3-sieb-des-eratosthenes-)
+
 
 
 # Aufgabe 4: Umwandlung von Dezimalzahlen in Römische Zahlen 🏛️
@@ -102,3 +108,6 @@ Entwickeln Sie ein Java-Programm, das:
 
 ### Zusatzfrage:
 - **Reflektion**: Was fällt Ihnen auf, wenn Sie an eine Analoguhr mit römischem Zifferblatt denken?
+
+
+## [Hilfestellung](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/Pflicht%C3%9Cbung2/Hilfestellung.md#aufgabe-4-umwandlung-von-dezimalzahlen-in-r%C3%B6mische-zahlen-%EF%B8%8F)
