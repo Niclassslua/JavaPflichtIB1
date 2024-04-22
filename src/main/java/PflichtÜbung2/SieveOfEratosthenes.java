@@ -18,15 +18,13 @@ public class SieveOfEratosthenes {
             isPrime[i] = true;
         }
 
-        // Sieb des Eratosthenes, um Primzahlen zu finden.
-        // Prüfe nur Zahlen bis zur Hälfte von maxNumber, da Vielfache höherer Zahlen bereits markiert sein werden.
-        for (int number = 2; number <= maxNumber / 2; number++) {
-            if (isPrime[number]) {  // Wenn die Zahl als Primzahl markiert ist, dann ...
-                int multiple = number;  // Beginne mit dem ersten Vielfachen der Zahl selbst.
-                // Markiere alle Vielfachen dieser Zahl als nicht prim.
-                while (multiple + number <= maxNumber) {
-                    multiple += number;  // Gehe zum nächsten Vielfachen.
+        // Sieb des Eratosthenes ohne Multiplikation oder Division
+        for (int number = 2; number <= maxNumber; number++) {
+            if (isPrime[number]) {
+                int multiple = number + number;  // Beginne mit dem ersten Vielfachen der Zahl, das größer als sie selbst ist.
+                while (multiple <= maxNumber) {
                     isPrime[multiple] = false;  // Dieses Vielfache ist keine Primzahl.
+                    multiple += number;  // Gehe zum nächsten Vielfachen, indem du die Zahl addierst.
                 }
             }
         }
