@@ -9,23 +9,26 @@ public class SimpleCipher {
     }
 
     private static String encryptString(String input) {
-        char[] output = new char[input.length()];  // Erstelle ein char-Array der gleichen Länge wie der Eingabestring
+        char[] output = new char[input.length()];  // Ein Array, das jeden Buchstaben der Eingabe speichert
 
+        // Durchlaufe jeden Buchstaben des Eingabestrings
         for (int i = 0; i < input.length(); i++) {
-            char c = input.charAt(i);
-            if (c >= 'A' && c < 'Z') {
-                output[i] = (char)(c + 1);  // Ersetze den Buchstaben durch seinen Nachfolger im Alphabet
-            } else if (c == 'Z') {
-                output[i] = 'A';  // Spezialfall für Z zu A
-            } else if (c >= 'a' && c < 'z') {
-                output[i] = (char)(c + 1);  // Ersetze den Buchstaben durch seinen Nachfolger im Alphabet
-            } else if (c == 'z') {
-                output[i] = 'a';  // Spezialfall für z zu a
+            char currentCharacter = input.charAt(i); // Aktueller Buchstabe
+            // Überprüfe, ob der Buchstabe ein Großbuchstabe ist
+            if (currentCharacter >= 'A' && currentCharacter < 'Z') {
+                output[i] = (char)(currentCharacter + 1);  // Erhöhe den Buchstaben um eins
+            } else if (currentCharacter == 'Z') {
+                output[i] = 'A';  // Wenn Z, dann gehe zurück zu A
+                // Überprüfe, ob der Buchstabe ein Kleinbuchstabe ist
+            } else if (currentCharacter >= 'a' && currentCharacter < 'z') {
+                output[i] = (char)(currentCharacter + 1);  // Erhöhe den Buchstaben um eins
+            } else if (currentCharacter == 'z') {
+                output[i] = 'a';  // Wenn z, dann gehe zurück zu a
             } else {
-                output[i] = c;  // Nicht-alphabetische Zeichen unverändert lassen
+                output[i] = currentCharacter;  // Lasse Zeichen, die keine Buchstaben sind, unverändert
             }
         }
 
-        return new String(output);  // Konvertiere das char-Array zurück in einen String
+        return new String(output);  // Mache aus dem Array von Buchstaben wieder einen zusammenhängenden Text
     }
 }
