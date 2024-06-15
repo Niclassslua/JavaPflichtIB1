@@ -54,6 +54,4 @@ Erweitern Sie die `FileHandler`-Klasse um Methoden zum Schreiben und Lesen von D
 - **[Codeerklärung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/PflichtÜbung4/CodeErklärung.md)**
 - **[Aufgabenstellung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/PflichtÜbung4/Aufgabenstellung.md)**
 - **[Hilfestellung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/PflichtÜbung4/Hilfestellung.md)**
-
-
-**[JavaDoc PÜ4 ansehen](https://niclassslua.github.io/JavaPflichtIB1/javadoc/PflichtÜbung4/package-summary.html)**
+- **[JavaDoc PÜ4 ansehen](https://niclassslua.github.io/JavaPflichtIB1/javadoc/PflichtÜbung4/package-summary.html)**
