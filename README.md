@@ -5,7 +5,9 @@ _Die Aufgabenstellungen sind nicht von mir erstellt, sondern lediglich umstruktu
 
 ## Pflichtübungen 📚
 
-### Aufgabe 1: Berechnung von Primzahlen 🔢
+### PÜ2:
+
+#### Aufgabe 1: Berechnung von Primzahlen 🔢
 
 Implementieren Sie ein Java-Programm zur Berechnung von Primzahlen ohne die Verwendung von Arrays. Das Programm soll Primzahlen bis zu einer vom Benutzer bestimmten Zahl n berechnen.
 
@@ -14,7 +16,7 @@ Implementieren Sie ein Java-Programm zur Berechnung von Primzahlen ohne die Verw
 - **[Aufgabenstellung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/Pflicht%C3%9Cbung2/Aufgabenstellung.md#aufgabe-1-primzahlenberechnung-)**
 - **[Hilfestellung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/Pflicht%C3%9Cbung2/Hilfestellung.md#aufgabe-1-berechnung-von-primzahlen-)**
 
-### Aufgabe 2: Einfacher Verschlüsselungsalgorithmus 🔐
+#### Aufgabe 2: Einfacher Verschlüsselungsalgorithmus 🔐
 
 Entwickeln Sie ein Java-Programm, das einen gegebenen Text durch Verschieben jedes Buchstabens um eine Position im Alphabet verschlüsselt. Nicht-Buchstaben bleiben unverändert.
 
@@ -23,7 +25,7 @@ Entwickeln Sie ein Java-Programm, das einen gegebenen Text durch Verschieben jed
 - **[Aufgabenstellung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/Pflicht%C3%9Cbung2/Aufgabenstellung.md#aufgabe-2-einfacher-verschl%C3%BCsselungsalgorithmus-)**
 - **[Hilfestellung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/Pflicht%C3%9Cbung2/Hilfestellung.md#aufgabe-2-einfacher-verschl%C3%BCsselungsalgorithmus-%EF%B8%8F)**
 
-### Aufgabe 3: Sieb des Eratosthenes 🔍
+#### Aufgabe 3: Sieb des Eratosthenes 🔍
 
 Implementieren Sie das "Sieb des Eratosthenes", einen effizienten Algorithmus zur Identifizierung aller Primzahlen bis zu einer vom Benutzer bestimmten maximalen Zahl.
 
@@ -32,7 +34,7 @@ Implementieren Sie das "Sieb des Eratosthenes", einen effizienten Algorithmus zu
 - **[Aufgabenstellung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/Pflicht%C3%9Cbung2/Aufgabenstellung.md#aufgabe-3-sieb-des-eratosthenes-)**
 - **[Hilfestellung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/Pflicht%C3%9Cbung2/Hilfestellung.md#aufgabe-3-sieb-des-eratosthenes-)**
 
-### Aufgabe 4: Umwandlung von Dezimalzahlen in Römische Zahlen 🏛️
+#### Aufgabe 4: Umwandlung von Dezimalzahlen in Römische Zahlen 🏛️
 
 Implementieren Sie ein Java-Programm zur Umwandlung von Dezimalzahlen in römische Zahlen. Der gültige Bereich für Eingabewerte ist von 1 bis 3999.
 
@@ -41,5 +43,6 @@ Implementieren Sie ein Java-Programm zur Umwandlung von Dezimalzahlen in römisc
 - **[Aufgabenstellung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/Pflicht%C3%9Cbung2/Aufgabenstellung.md#aufgabe-4-umwandlung-von-dezimalzahlen-in-r%C3%B6mische-zahlen-%EF%B8%8F)**
 - **[Hilfestellung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/Pflicht%C3%9Cbung2/Hilfestellung.md#aufgabe-4-umwandlung-von-dezimalzahlen-in-r%C3%B6mische-zahlen-%EF%B8%8F)**
 
+### PÜ4:
 
 **[JavaDoc PÜ4 ansehen](https://niclassslua.github.io/JavaPflichtIB1/javadoc/PflichtÜbung4/package-summary.html)**
