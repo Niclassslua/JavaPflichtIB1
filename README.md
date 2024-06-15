@@ -45,4 +45,15 @@ Implementieren Sie ein Java-Programm zur Umwandlung von Dezimalzahlen in römisc
 
 ### PÜ4:
 
+
+#### Aufgabe 1: internes Notizprogramm 📒
+
+Erweitern Sie die `FileHandler`-Klasse um Methoden zum Schreiben und Lesen von Dateien und passen Sie die `Main`-Klasse an, um verschlüsselte Notizen in Dateien zu speichern und zu lesen. Implementieren Sie dafür die Methoden `writeToFile` und `readFromFile` und fügen Sie die entsprechenden Optionen zur Benutzerschnittstelle hinzu.
+
+- **[Code ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/src/main/java/Pflicht%C3%9Cbung4)**
+- **[Codeerklärung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/PflichtÜbung4/CodeErklärung.md)**
+- **[Aufgabenstellung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/PflichtÜbung4/Aufgabenstellung.md)**
+- **[Hilfestellung ansehen](https://github.com/Niclassslua/JavaPflichtIB1/blob/main/docs/PflichtÜbung4/Hilfestellung.md)**
+
+
 **[JavaDoc PÜ4 ansehen](https://niclassslua.github.io/JavaPflichtIB1/javadoc/PflichtÜbung4/package-summary.html)**
