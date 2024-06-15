@@ -14,7 +14,7 @@ public class Main {
     /**
      * The main method serves as the entry point for the program.
      * It continuously presents the user with options to write a note, read a note, or exit the program.
-     * 
+     *
      * @param args command line arguments (not used)
      * @throws IOException if an I/O error occurs during file operations
      */
